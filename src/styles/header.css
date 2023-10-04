@@ -1,0 +1,16 @@
+.header {
+  background-color: #313131;
+}
+.logo {
+  font-family: Impact;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.accent-logo {
+  color: #f2a500;
+}
+.logo-hd {
+  color: #fff;
+}
