@@ -1,4 +1,22 @@
-.container{
-    width: 1440px;
-    
+body {
+  color: #fff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.container {
+  width: 1440px;
+  padding: 30px 35px;
+}
+
+.section-title {
+  color: #ec7f00;
+  font-family: Impact;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
 }

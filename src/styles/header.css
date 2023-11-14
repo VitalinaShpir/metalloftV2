@@ -1,5 +1,9 @@
 .header {
   background-color: #313131;
+  background-image: url('../images/bg-bricks/kisspng-stone-wall-brick-clip-art-get-brick-texture-png-pictures-5ab138695d4222\ 1\ \(Traced\).png');
+  /* background-position: top; */
+  /* background-size: contain; */
+  background-repeat: no-repeat;
 }
 .logo {
   font-family: Impact;
@@ -8,9 +12,39 @@
   font-weight: 400;
   line-height: normal;
 }
+.logo-wrapp {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
 .accent-logo {
   color: #f2a500;
 }
 .logo-hd {
   color: #fff;
+}
+.navigation {
+  margin-top: 34px;
+}
+.navigation-list {
+  display: flex;
+  justify-content: center;
+  gap: 59px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn {
+  width: 280px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #ec7f00;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
 }

@@ -1,5 +1,9 @@
 .hero {
   background-color: #313131;
+  background-image: url('../images/bg-bricks/kisspng-stone-wall-brick-clip-art-get-brick-texture-png-pictures-5ab138695d4222\ 1\ \(Traced\).png');
+  /* background-position: top; */
+  /* background-size: contain; */
+  background-repeat: no-repeat;
 }
 .hero-subtitle {
   color: #fff;

@@ -1,9 +1,4 @@
 @font-face {
-    font-family: 'Impact';
-    src: url('../Impact-Font/impact.ttf') format('ttf')
-  }
-  
-  body {
-    font-family: 'Impact', sans-serif;
-  }
-  
+  font-family: 'Impact';
+  src: url('../Impact-Font/impact.ttf') format('ttf');
+}
