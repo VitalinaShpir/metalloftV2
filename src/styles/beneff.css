@@ -1,0 +1,32 @@
+.benefTit {
+  color: #2d2d2d;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.benefTxt {
+  color: #2d2d2d;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+
+.benefList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+.benefItem {
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
