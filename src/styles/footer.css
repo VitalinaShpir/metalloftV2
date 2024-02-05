@@ -1,0 +1,7 @@
+.footer {
+  background-color: #313131;
+}
+.fo-container {
+  display: flex;
+  gap: 80px;
+}

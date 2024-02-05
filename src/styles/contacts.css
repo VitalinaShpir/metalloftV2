@@ -10,3 +10,8 @@
 .map {
   box-shadow: 16px 16px #ec7f00;
 }
+.contacts-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

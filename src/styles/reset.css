@@ -22,12 +22,12 @@ button {
   cursor: pointer;
 }
 
-img,
+/* img,
 picture,
 svg {
   display: block;
   max-width: 100%;
-}
+} */
 
 a {
   text-decoration: none;
