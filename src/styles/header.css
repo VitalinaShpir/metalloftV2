@@ -16,7 +16,6 @@
 .logo-wrapp {
   display: flex;
   justify-content: center;
-  position: relative;
 }
 .accent-logo {
   color: #f2a500;
@@ -131,13 +130,14 @@
 
   .navigation {
     margin-top: 28px;
+    padding: 10px 20px;
   }
   .navigation-list {
     display: flex;
     justify-content: center;
-    gap: 59px;
+    gap: 39px;
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -161,10 +161,6 @@
     display: flex;
     justify-content: center;
     gap: 59px;
-    color: #fff;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
   }
 }
