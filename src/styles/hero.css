@@ -1,49 +1,80 @@
+.hero {
+  background-color: #313131;
+}
 .hero-subtitle {
   color: #fff;
   font-family: Montserrat;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  width: 325px;
+  width: 300px;
 }
 
 .hero-title {
   color: #fff;
   font-family: Impact;
-  font-size: 68px;
+  font-size: 56px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 495px;
+  /* width: 495px; */
+  margin-top: 50px;
   margin-bottom: 30px;
 }
 .title-container {
-  padding-top: 156px;
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 24px; */
+  padding: 30px 20px;
 }
 
-.hero {
-  background-color: #313131;
-  background-image: url('../images/bg-bricks/kisspng-stone-wall-brick-clip-art-get-brick-texture-png-pictures-5ab138695d4222\ 1\ \(Traced\).png');
-  background-position: top -200px left 0;
-  /* background-size: contain; */
-  background-repeat: no-repeat;
-  position: relative;
-  height: 647px;
+@media screen and (min-width: 768px) {
+  .hero-subtitle {
+    font-size: 20px;
+    font-style: normal;
+    /* width: 325px; */
+  }
+
+  .hero-title {
+    font-size: 68px;
+    /* width: 495px; */
+    /* margin-bottom: 30px; */
+  }
+  .title-container {
+    padding: 40px 30px;
+  }
 }
-/* .hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 30%;
-  width: 100%;
-  height: 100%;
-  background-image: url('../images/bg-bricks/hero-br-img.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: 0;
-} */
+
+@media screen and (min-width: 1440px) {
+  .hero-subtitle {
+    width: 325px;
+  }
+
+  .hero-title {
+    width: 495px;
+    margin-bottom: 30px;
+  }
+  .title-container {
+    padding: 50px 40px;
+  }
+
+  .hero {
+    background-color: #313131;
+    /* background-image: url('../images/bg-bricks/kisspng-stone-wall-brick-clip-art-get-brick-texture-png-pictures-5ab138695d4222\ 1\ \(Traced\).png');
+    background-position: top -200px left 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 647px; */
+  }
+  /* .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/bg-bricks/hero-br-img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 0;
+  } */
+}

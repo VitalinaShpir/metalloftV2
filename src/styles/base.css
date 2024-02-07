@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+/* section {
+  padding: 10px 20px;
+} */
+
 .container {
   width: 375px;
   margin: 0 auto;
