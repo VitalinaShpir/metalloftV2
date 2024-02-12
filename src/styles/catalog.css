@@ -1,24 +1,25 @@
 .catalog {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 .catalog-subtitle {
   color: #2d2d2d;
   text-align: center;
-  font-size: 36px;
+  font-size: 32px;
   margin-bottom: 12px;
 }
 .catalog-link {
   color: #ec7f00;
-  font-size: 36px;
+  font-size: 32px;
   text-transform: uppercase;
 }
 .catalog-txt {
   display: block;
+  margin: 0 auto;
   color: #2d2d2d;
   text-align: center;
-  font-size: 20px;
-  /* width: 325px; */
+  font-size: 18px;
+  width: 285px;
   margin-bottom: 50px;
 }
 .catalog-wrap {
@@ -43,4 +44,30 @@
 }
 .catalog-img {
   box-shadow: 16px 16px #ec7f00;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-subtitle {
+    font-size: 34px;
+  }
+  .catalog-link {
+    font-size: 34px;
+  }
+  .catalog-txt {
+    font-size: 20px;
+    width: 325px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .catalog-subtitle {
+    font-size: 36px;
+  }
+  .catalog-link {
+    font-size: 36px;
+  }
+  .catalog-txt {
+    font-size: 20px;
+    width: 425px;
+  }
 }
