@@ -1,0 +1,20 @@
+.catalog-menu {
+  display: none;
+}
+
+.catalog-open {
+  display: block;
+  position: fixed;
+  width: 100%;
+
+  top: 0;
+  left: 0;
+  background-color: #2d2d2de3;
+}
+.catalog-menu-list {
+  padding: 30px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
