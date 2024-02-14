@@ -56,7 +56,7 @@
 }
 @media screen and (min-width: 1440px) {
   .map {
-    box-shadow: 16px 16px #ec7f00;
+    box-shadow: 10px 10px 4px 2px #ec7e00;
     width: 600px;
     height: 450px;
   }
