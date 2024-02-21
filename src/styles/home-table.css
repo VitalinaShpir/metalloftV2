@@ -3,7 +3,10 @@
 .interier-menu,
 .bus-shells,
 .bar-menu,
-.hangers {
+.hangers,
+.garden-bench,
+.barbeque,
+.swing {
   display: none;
 }
 
@@ -17,6 +20,8 @@
   background-color: #2d2d2de3;
   backdrop-filter: blur(5px);
   z-index: 999;
+  overflow: scroll;
+  padding: 65px 50px;
 }
 .catalog-menu-list {
   padding: 30px 40px;
@@ -24,4 +29,19 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+}
+
+.close-bench,
+.close-swing,
+.close-barbeque,
+.close-bar,
+.close-hangers,
+.close-shells,
+.close-table,
+.close-stellage,
+.close-inter {
+  top: 60px;
+  right: 150px;
+  width: 40px;
+  height: 40px;
 }

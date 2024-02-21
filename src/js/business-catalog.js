@@ -7,10 +7,12 @@ closeBar.addEventListener('click', onCloseBar);
 
 function onOpenBar() {
   barMenu.classList.add('catalog-open');
+  document.body.style.overflow = 'hidden';
 }
 
 function onCloseBar() {
   barMenu.classList.remove('catalog-open');
+  document.body.style.overflow = 'auto';
 }
 
 // for shells catalog
@@ -24,10 +26,12 @@ closeShells.addEventListener('click', onCloseShells);
 
 function onOpenShells() {
   shellsMenu.classList.add('catalog-open');
+  document.body.style.overflow = 'hidden';
 }
 
 function onCloseShells() {
   shellsMenu.classList.remove('catalog-open');
+  document.body.style.overflow = 'auto';
 }
 
 // for hangers catalog
@@ -41,8 +45,10 @@ closeHanger.addEventListener('click', onCloseHanger);
 
 function onOpenHanger() {
   hangerMenu.classList.add('catalog-open');
+  document.body.style.overflow = 'hidden';
 }
 
 function onCloseHanger() {
   hangerMenu.classList.remove('catalog-open');
+  document.body.style.overflow = 'auto';
 }

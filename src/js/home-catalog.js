@@ -9,10 +9,12 @@ closeButton.addEventListener('click', onCloseModal);
 
 function onOpenModal() {
   catalogMenu.classList.add('catalog-open');
+  document.body.style.overflow = 'hidden';
 }
 
 function onCloseModal() {
   catalogMenu.classList.remove('catalog-open');
+  document.body.style.overflow = 'auto';
 }
 
 const listStellage = document.querySelector('.home-stellage');
@@ -24,9 +26,11 @@ closeStellage.addEventListener('click', onCloseStellage);
 
 function onOpenStellage() {
   stellMenu.classList.add('catalog-open');
+  document.body.style.overflow = 'hidden';
 }
 function onCloseStellage() {
   stellMenu.classList.remove('catalog-open');
+  document.body.style.overflow = 'auto';
 }
 
 const listInterier = document.querySelector('.home-interier');
@@ -38,7 +42,9 @@ closeInter.addEventListener('click', onCloseInterier);
 
 function onOpenInterier() {
   interMenu.classList.add('catalog-open');
+  document.body.style.overflow = 'hidden';
 }
 function onCloseInterier() {
   interMenu.classList.remove('catalog-open');
+  document.body.style.overflow = 'auto';
 }

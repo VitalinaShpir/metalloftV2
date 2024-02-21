@@ -44,6 +44,7 @@
 }
 .catalog-item {
   position: relative;
+  cursor: pointer;
 }
 
 .catalog-img {
@@ -51,6 +52,7 @@
   transition: 0.5s ease;
   backface-visibility: hidden;
   opacity: 1;
+  cursor: pointer;
 }
 .middle {
   transition: 0.5s ease;
