@@ -1,3 +1,6 @@
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
+
 const listTable = document.querySelector('.home-table');
 const closeButton = document.querySelector('.close-table');
 const catalogMenu = document.querySelector('.catalog-menu');
@@ -16,6 +19,11 @@ function onCloseModal() {
   catalogMenu.classList.remove('catalog-open');
   document.body.style.overflow = 'auto';
 }
+
+const lightboxTable = new SimpleLightbox('.table-list', {
+  captionsData: 'alt',
+  captionDelay: 250,
+});
 
 const listStellage = document.querySelector('.home-stellage');
 const stellMenu = document.querySelector('.stellage-menu');
