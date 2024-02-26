@@ -4,6 +4,9 @@
   margin-bottom: 14px;
   display: flex;
 }
+.contacts {
+  padding: 20px 0;
+}
 .icon-loc {
   fill: #ec7f00;
 }
@@ -18,7 +21,7 @@
   gap: 36px;
   justify-content: center;
   align-items: center;
-  margin-bottom: 24px;
+  padding-bottom: 44px;
 }
 .contacts-list {
   display: flex;

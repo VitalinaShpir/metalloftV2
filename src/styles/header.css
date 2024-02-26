@@ -1,9 +1,8 @@
 .header {
   background-color: #313131;
-  /* background-image: url('../images/bg-bricks/kisspng-stone-wall-brick-clip-art-get-brick-texture-png-pictures-5ab138695d4222\ 1\ \(Traced\).png');
+  background-image: url('../images/bg-bricks/kisspng-stone-wall-brick-clip-art-get-brick-texture-png-pictures-5ab138695d4222\ 1\ \(Traced\).png');
   background-position: top 0 left 0;
-  background-size: contain;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 
 .logo {
@@ -16,6 +15,8 @@
 .logo-wrapp {
   display: flex;
   justify-content: center;
+  position: relative;
+  padding-top: 30px;
 }
 .accent-logo {
   color: #f2a500;
@@ -157,7 +158,7 @@
   }
   .btn-submit {
     position: absolute;
-    top: 20px;
+    top: 40px;
     right: 60px;
   }
 

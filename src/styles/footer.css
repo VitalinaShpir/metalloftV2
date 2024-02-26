@@ -1,5 +1,8 @@
 .footer {
   background-color: #313131;
+  background-image: url('../images/bg-bricks/kisspng-stone-wall-brick-clip-art-get-brick-texture-png-pictures-5ab138695d4222\ 1\ \(Traced\).png');
+  background-position: top -15px left 0;
+  background-repeat: no-repeat;
 }
 .fo-container {
   padding: 14px 30px;

@@ -4,7 +4,8 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin: 0;
+  margin: 0 auto;
+  position: relative;
 }
 
 /* section {
@@ -12,7 +13,7 @@ body {
 } */
 
 .container {
-  width: 375px;
+  width: 325px;
   margin: 0 auto;
   /* padding: 0 20px; */
 }
@@ -49,6 +50,13 @@ body {
   .section-title {
     font-size: 60px;
     margin-bottom: 44px;
+  }
+  .section {
+    width: 1440;
+    margin: 0 auto;
+    box-shadow: -5px 0 5px -5px rgba(0, 0, 0, 0.5),
+      5px 0 5px -5px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
   }
 }
 

@@ -14,6 +14,9 @@
   padding: 0 25px;
   text-align: center;
 }
+.benef-img {
+  width: 300px;
+}
 
 @media screen and (min-width: 768px) {
   .about-subtitle {
@@ -25,4 +28,7 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .benef-img {
+    width: 340px;
+  }
 }

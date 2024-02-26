@@ -1,5 +1,18 @@
 .hero {
   background-color: #313131;
+  background-image: url(../images/bg-bricks/hero-br-img.png),
+    url('../images/bg-bricks/kisspng-stone-wall-brick-clip-art-get-brick-texture-png-pictures-5ab138695d4222\ 1\ \(Traced\).png');
+  background-position: top -15px left 0;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 650px;
+}
+.title-container {
+  padding: 30px 20px;
+  background-image: url('../images/bg-bricks/kisspng-stone-wall-brick-clip-art-get-brick-texture-png-pictures-5ab138695d4222\ 1\ \(Traced\).png');
+  background-position: top -15px left 0;
+  background-repeat: no-repeat;
+  height: 550px;
 }
 .hero-subtitle {
   color: #fff;
@@ -19,11 +32,8 @@
   font-weight: 400;
   line-height: normal;
   /* width: 495px; */
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 30px;
-}
-.title-container {
-  padding: 30px 20px;
 }
 
 @media screen and (min-width: 768px) {
