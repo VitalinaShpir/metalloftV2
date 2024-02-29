@@ -1,7 +1,6 @@
 .hero {
   background-color: #313131;
-  background-image: url(../images/bg-bricks/hero-br-img.png),
-    url('../images/bg-bricks/kisspng-stone-wall-brick-clip-art-get-brick-texture-png-pictures-5ab138695d4222\ 1\ \(Traced\).png');
+  background-image: url(../images/bg-bricks/hero-br-img.png);
   background-position: top -15px left 0;
   background-position: right;
   background-repeat: no-repeat;
