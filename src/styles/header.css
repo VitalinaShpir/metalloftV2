@@ -77,9 +77,15 @@
   top: 45px;
   right: 20px;
   background-color: transparent;
+  box-shadow: none;
+  transition: box-shadow 250ms linear;
 }
 .modal-close-btn-icon {
   fill: #ec7f00;
+}
+.mobile-menu-btn-close:hover,
+.mobile-menu-btn-close:focus {
+  box-shadow: 0px 0px 0px 6px rgba(236, 126, 0, 0.325);
 }
 
 .mobile-menu-list {
@@ -157,7 +163,7 @@
     justify-content: center;
     gap: 39px;
     color: #fff;
-    font-size: 18px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -183,7 +189,7 @@
     display: flex;
     justify-content: center;
     gap: 59px;
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 
