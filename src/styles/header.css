@@ -102,6 +102,7 @@
   display: flex;
   gap: 24px;
   justify-content: center;
+  margin-top: 30px;
   padding-bottom: 30px;
 }
 .btn-mob {
@@ -143,7 +144,7 @@
   }
   .btn-submit {
     position: absolute;
-    top: 10px;
+    top: 40px;
     right: 20px;
   }
 
