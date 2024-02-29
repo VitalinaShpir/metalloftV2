@@ -1,6 +1,7 @@
 const listBench = document.querySelector('.garden-table');
 const closeBench = document.querySelector('.close-bench');
 const benchMenu = document.querySelector('.garden-bench');
+const btnUpRef = document.querySelector('.btn_up');
 
 listBench.addEventListener('click', onOpenBench);
 closeBench.addEventListener('click', onCloseBench);
@@ -8,6 +9,7 @@ closeBench.addEventListener('click', onCloseBench);
 function onOpenBench() {
   benchMenu.classList.add('catalog-open');
   document.body.style.overflow = 'hidden';
+  btnUpRef.classList.add('hide-btn_up');
 }
 
 function onCloseBench() {
@@ -27,6 +29,7 @@ closeBarbeque.addEventListener('click', onCloseBarbeque);
 function onOpenBarbeque() {
   barbequeMenu.classList.add('catalog-open');
   document.body.style.overflow = 'hidden';
+  btnUpRef.classList.add('hide-btn_up');
 }
 
 function onCloseBarbeque() {
@@ -46,6 +49,7 @@ closeSwing.addEventListener('click', onCloseSwing);
 function onOpenSwing() {
   swingMenu.classList.add('catalog-open');
   document.body.style.overflow = 'hidden';
+  btnUpRef.classList.add('hide-btn_up');
 }
 
 function onCloseSwing() {

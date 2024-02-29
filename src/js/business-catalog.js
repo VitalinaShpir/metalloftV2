@@ -1,6 +1,7 @@
 const listBar = document.querySelector('.business-bar');
 const closeBar = document.querySelector('.close-bar');
 const barMenu = document.querySelector('.bar-menu');
+const btnUpRef = document.querySelector('.btn_up');
 
 listBar.addEventListener('click', onOpenBar);
 closeBar.addEventListener('click', onCloseBar);
@@ -8,6 +9,7 @@ closeBar.addEventListener('click', onCloseBar);
 function onOpenBar() {
   barMenu.classList.add('catalog-open');
   document.body.style.overflow = 'hidden';
+  btnUpRef.classList.add('hide-btn_up');
 }
 
 function onCloseBar() {
@@ -27,6 +29,7 @@ closeShells.addEventListener('click', onCloseShells);
 function onOpenShells() {
   shellsMenu.classList.add('catalog-open');
   document.body.style.overflow = 'hidden';
+  btnUpRef.classList.add('hide-btn_up');
 }
 
 function onCloseShells() {
@@ -46,6 +49,7 @@ closeHanger.addEventListener('click', onCloseHanger);
 function onOpenHanger() {
   hangerMenu.classList.add('catalog-open');
   document.body.style.overflow = 'hidden';
+  btnUpRef.classList.add('hide-btn_up');
 }
 
 function onCloseHanger() {

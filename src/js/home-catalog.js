@@ -1,6 +1,7 @@
 const listTable = document.querySelector('.home-table');
 const closeButton = document.querySelector('.close-table');
 const catalogMenu = document.querySelector('.catalog-menu');
+const btnUpRef = document.querySelector('.btn_up');
 
 // for each????
 
@@ -10,6 +11,7 @@ closeButton.addEventListener('click', onCloseModal);
 function onOpenModal() {
   catalogMenu.classList.add('catalog-open');
   document.body.style.overflow = 'hidden';
+  btnUpRef.classList.add('hide-btn_up');
 }
 
 function onCloseModal() {
@@ -27,6 +29,7 @@ closeStellage.addEventListener('click', onCloseStellage);
 function onOpenStellage() {
   stellMenu.classList.add('catalog-open');
   document.body.style.overflow = 'hidden';
+  btnUpRef.classList.add('hide-btn_up');
 }
 function onCloseStellage() {
   stellMenu.classList.remove('catalog-open');
@@ -43,6 +46,7 @@ closeInter.addEventListener('click', onCloseInterier);
 function onOpenInterier() {
   interMenu.classList.add('catalog-open');
   document.body.style.overflow = 'hidden';
+  btnUpRef.classList.add('hide-btn_up');
 }
 function onCloseInterier() {
   interMenu.classList.remove('catalog-open');
